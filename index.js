@@ -48,7 +48,7 @@ console.log("Successful creation of the 'Books' table");
     console.log("Successful creation of 3 books");
   });
 
-app.listen(3001, () =>  {
+app.listen(process.env.PORT, () =>  {
   console.log("Server started (http://localhost:3001/) !");
 });
 
